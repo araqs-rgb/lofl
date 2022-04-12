@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620611849722",
+    "project_id": "lofl-63528",
+    "storage_bucket": "lofl-63528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620611849722:android:d5fb96f48d4fc445c4a843",
+        "android_client_info": {
+          "package_name": "com.example.lofl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620611849722-sn3e7hac678jc0ec88kj85a66tvi6gm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc4ER8sLDUXsyLe9flybLirKc_zHH4hvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620611849722-sn3e7hac678jc0ec88kj85a66tvi6gm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

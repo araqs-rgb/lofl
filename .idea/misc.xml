@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/drawable/edittextbackground.xml" value="0.2165" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2165" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/drawable/search_view.xml" value="0.144" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_final_bottom.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_home_home.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_login.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_main2.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_register_step2.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/activity_register_step3.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/fragment_favorite.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/fragment_final_home.xml" value="0.22" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/fragment_final_search.xml" value="0.16" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/fragment_message.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/fragment_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/fragment_search.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/layout/register.xml" value="0.25" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/menu/nav_bar_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/Araqs/AndroidStudioProjects/lofl/app/src/main/res/menu/nav_menu.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint=" Enter e-mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Enter password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/black"
+        android:text="LOG IN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="LOG IN"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+</androidx.constraintlayout.widget.ConstraintLayout>

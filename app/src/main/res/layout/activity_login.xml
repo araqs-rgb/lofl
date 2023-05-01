@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/emailLog"
         android:layout_width="343dp"
         android:layout_height="52dp"
         android:layout_marginTop="32dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordLog"
         android:layout_width="343dp"
         android:layout_height="52dp"
         android:layout_marginTop="28dp"
@@ -29,10 +29,10 @@
         android:hint=" Enter password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/emailLog" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/loginLog"
         android:layout_width="343dp"
         android:layout_height="52dp"
         android:layout_marginTop="28dp"
@@ -40,7 +40,7 @@
         android:text="LOG IN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordLog" />
 
     <TextView
         android:id="@+id/textView"

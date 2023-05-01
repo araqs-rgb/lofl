@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lofl">
         <activity
+            android:name=".inputChat"
+            android:exported="false" />
+        <activity
             android:name=".FinalBottom"
             android:exported="false" />
         <activity

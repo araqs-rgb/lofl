@@ -59,7 +59,6 @@ class RegisterActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     val intent = Intent(this, RegisterStep3Activity::class.java)
                     startActivity(intent)
-
                     Toast.makeText(baseContext, "Authentication success.",
                         Toast.LENGTH_SHORT,).show()
                 } else {

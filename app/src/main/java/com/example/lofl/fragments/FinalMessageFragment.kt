@@ -7,8 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.cardview.widget.CardView
 import com.example.lofl.R
 import com.example.lofl.RegisterActivity
+import com.example.lofl.inputChat
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -39,6 +41,13 @@ class FinalMessageFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_final_message, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        view.findViewById<CardView>(R.id.cardViewMes).setOnClickListener {
+            val card1 = Intent(activity, inputChat::class.java)
+            activity?.startActivity(card1)
+        }
     }
 
     companion object {

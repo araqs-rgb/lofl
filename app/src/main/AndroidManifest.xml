@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lofl">
         <activity
+            android:name=".galery"
+            android:exported="false" />
+        <activity
+            android:name=".createdRoom"
+            android:exported="false" />
+        <activity
             android:name=".inputChat"
             android:exported="false" />
         <activity

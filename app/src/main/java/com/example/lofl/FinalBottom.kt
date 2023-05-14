@@ -10,8 +10,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class FinalBottom : AppCompatActivity() {
 
     private val homeFragment = FinalHomeFragment()
-    private val searchFragment = FinalSearchFragment()
-    private val favoriteFragment = FinalFavoriteFragment()
     private val messageFragment = FinalMessageFragment()
     private val profileFragment = FinalProfileFragment()
 
@@ -27,8 +25,6 @@ class FinalBottom : AppCompatActivity() {
         bottom_navigation.setOnNavigationItemSelectedListener() {
             when(it.itemId){
                 R.id.NavHome -> replaceFragment(homeFragment)
-                R.id.NavSearch -> replaceFragment(searchFragment)
-                R.id.NavFavorite -> replaceFragment(favoriteFragment)
                 R.id.NavMessage -> replaceFragment(messageFragment)
                 R.id.NavProfile -> replaceFragment(profileFragment)
             }

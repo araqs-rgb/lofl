@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lofl">
         <activity
+            android:name=".input_room"
+            android:exported="false" />
+        <activity
             android:name=".galery"
             android:exported="false" />
         <activity
